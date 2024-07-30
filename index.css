@@ -1,0 +1,130 @@
+body{
+    background-color: aqua;
+}
+.student{
+    width: 330px;
+    height: 370px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 610px;
+    margin-top: 180px;
+}
+.student h1{
+    margin-left: 10px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.input{
+    margin-left:75px;
+}
+.text{
+    width: 160px;
+    height: 25px;
+    border: 1px solid black;
+    padding-left: 5px;
+}
+::placeholder{
+    font-weight: bold;
+}
+p{
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 400px;
+    margin-top: 100px;
+    color: forestgreen;
+}
+
+.course{
+    width: 160px;
+    height: 25px;
+    border: 1px solid black;
+    padding-left: 5px;
+}
+.year{
+    width: 160px;
+    height: 25px;
+    border: 1px solid black;
+    padding-left: 5px;
+}
+.email{
+    width: 160px;
+    height: 25px;
+    border: 1px solid black;
+    padding-left: 5px;
+}
+.number{
+    width: 160px;
+    height: 25px;
+    border: 1px solid black;
+    padding-left: 5px;
+}
+button{
+    margin-left: 135px;
+    cursor: pointer;
+    width: 60px;
+    height: 30px;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: blue;
+}
+button a{
+    color: white;
+    text-decoration: none;
+}
+@media (max-width:600px){
+    .student{
+        margin-left: 80px;
+        margin-top: 450px;
+        width: 800px;
+        height: 800px;
+        border-radius: 30px;
+    }
+    .student h1{
+        font-size: 60px;
+        margin-left: 100px;
+        padding-top: 60px;
+    }
+    .input{
+        margin-left: 200px;
+        padding-top: 10px;
+    }
+    .text{
+        width: 350px;
+        height: 50px;
+    }
+    .course{
+        width: 350px;
+        height: 50px;
+        margin-top: 20px;
+    }
+    .email{
+        width: 350px;
+        height: 50px;
+        margin-top: 20px;
+    }
+    .year{
+        width: 350px;
+        height: 50px;
+        margin-top: 20px;
+    }
+    .number{
+        width: 350px;
+        height: 50px;
+        margin-top: 20px;
+    }
+    button{
+        width: 100px;
+        height: 60px;
+        margin-left: 350px;
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    ::placeholder{
+        font-size: 30px;
+    }
+    p{
+    margin-left: 100px;
+    margin-top: 300px;
+   }
+}
